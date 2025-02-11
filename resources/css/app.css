@@ -1,14 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.header{
-    @apply
-    bg-green-600 border-blue-500
-    p-3
-    m-3
-    rounded-2xl text-2xl
-    hover:cursor-pointer
-    hover:bg-gray-900
-    hover:text-white
 
-}
+

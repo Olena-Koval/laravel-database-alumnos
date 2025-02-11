@@ -9,20 +9,13 @@
     @vite("resources/css/app.css")
 </head>
 <body>
-<header class="h-15v bg-header">
-    ESTOY EN HEADER
-</header>
-<nav class="h-10v bg-nav">
-    <a class="header" href="about">About</a>
-    <a href="noticias">Noticias</a>
-    <a href="/">Ppal</a>
-</nav>
+<x-layouts.header />
+<x-layouts.nav />
+
 <main class="bg-main h-65v">
     {{$slot}}
 </main>
-<footer class="h-10v bg-footer">
-    estoy en footer
-</footer>
+<x-layouts.footer />
 
 </body>
 </html>
