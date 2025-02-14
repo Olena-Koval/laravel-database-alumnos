@@ -1,11 +1,11 @@
-<x-guest-layout>
+<x-layouts.layout>
     <!-- Session Status -->
+    <div class="flex flex-row justify-center items-center min-h-full bg-gray-300">
+        <div class="bg-white p-4 rounded-xl ">
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <form method="POST" action="{{ route('login') }}">
         @csrf
-        <H1>eSTOY EN VIEW AUTH</H1>
-
         <!-- Email Address -->
         <div>
             <x-input-label for="email" :value="__('Email')" />
@@ -45,4 +45,6 @@
             </x-primary-button>
         </div>
     </form>
-</x-guest-layout>
+    </div>
+    </div>
+</x-layouts.layout>
