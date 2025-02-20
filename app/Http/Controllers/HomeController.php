@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home'); // Asegúrate de tener resources/views/home.blade.php
+        return view('main'); // Asegúrate de tener resources/views/main.blade.php
     }
 }

@@ -10,7 +10,7 @@
         @guest
             <form action="">
                 <a href="{{route('login')}}" class="btn btn-sm btn-primary btn-outline">Login</a>
-                <button class="btn btn-sm">Register</button>
+                <a href="{{route('register')}}" class="btn btn-sm btn-primary btn-outline">Register</a>
             </form>
         @endguest
         @auth

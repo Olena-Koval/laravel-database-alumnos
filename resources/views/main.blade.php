@@ -21,7 +21,7 @@
             <div class="card bg-base-100 image-full w-96 shadow-xl">
                 <figure>
                     <img
-                        src="{{asset("images/alumnos.avif")}}"                       alt="Alumnos" />
+                        src="{{asset("images/alumnos.avif")}}" alt="Alumnos" />
                 </figure>
                 <div class="card-body">
                     <h2 class="card-title">Alumnos</h2>
