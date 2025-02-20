@@ -10,3 +10,17 @@ Me genera estos directorios
 ---
 
 > Esto es muy importante
+
+
+
+
+
+# Proyecto Laravel con Breeze
+
+Este es un proyecto Laravel que implementa autenticación con Breeze.
+
+## Instalación
+
+1. Clona este repositorio:
+ 
+   git clone https://github.com/Olena-Koval/laravel.git
