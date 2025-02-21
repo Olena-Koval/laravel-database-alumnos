@@ -9,8 +9,7 @@
             <div class="max-w-md">
                 <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
                 <p class="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    La aplicación esta modificada por el autor Olena Koval.
                 </p>
                 <button class="btn btn-primary">Get Started</button>
             </div>

@@ -2,7 +2,7 @@
     <!-- Session Status -->
  
     <!-- Session Status -->
-    <div class="flex flex-row justify-center items-center min-h-full bg-gray-300">
+    <div class="flex flex-row justify-center items-center min-h-full bg-gray-100">
         <div class="bg-white p-4 rounded-xl ">
     <form method="POST" action="{{ route('register') }}">
         @csrf

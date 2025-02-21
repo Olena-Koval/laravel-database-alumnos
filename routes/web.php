@@ -16,3 +16,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::fallback(fn()=>"not found");
 // Incluir las rutas de autenticación de Breeze
 require __DIR__.'/auth.php';
+Route::view("alumnos","alumnos")->name("alumnos");
