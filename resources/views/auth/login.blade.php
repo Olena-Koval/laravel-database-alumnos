@@ -1,4 +1,4 @@
-<x-layouts.layout>
+<x-layouts.layout title="login">
     <!-- Session Status -->
     <div class="flex flex-row justify-center items-center min-h-full bg-gray-300">
         <div class="bg-white p-4 rounded-xl ">

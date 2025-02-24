@@ -1,5 +1,4 @@
-
-<x-layouts.layout>
+<x-layouts.layout title="Proyecto Laravel">
     @guest
     <div
         class="hero min-h-full"
