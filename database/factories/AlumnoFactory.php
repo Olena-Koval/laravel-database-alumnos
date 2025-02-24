@@ -22,7 +22,6 @@ class AlumnoFactory extends Factory
             'email' => $this->faker->email(),
             'password' => bcrypt("12345678"),
 
-            
             //
         ];
     }
