@@ -18,11 +18,8 @@ class AlumnoFactory extends Factory
     {
         return [
             'nombre' => $this->faker->name(),
-            'dni' => $this->faker->unique()->randomNumber(8),
-            'email' => $this->faker->email(),
-            'password' => bcrypt("12345678"),
-
-            //
+            'dni' => strtoupper($this->faker->numerify('########') . $this->faker->randomLetter()),
+            'email' => $this->faker->unique()->safeEmail(),
         ];
     }
 }

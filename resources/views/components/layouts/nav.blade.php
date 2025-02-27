@@ -5,7 +5,7 @@ space-x-5">
 <button class="btn btn-sm btn-warning">Contacta</button>
 <button class="btn btn-sm btn-glass">History</button>
 @auth
-    <a href="{{route('alumnos')}}" class="btn btn-sm btn-primary">Alumnos</a>
+    <a href="{{route('alumnos.index')}}" class="btn btn-sm btn-primary">Alumnos</a>
 @endauth
 
 </nav>

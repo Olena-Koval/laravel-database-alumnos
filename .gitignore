@@ -1,3 +1,4 @@
+/.mysql
 /.phpunit.cache
 /node_modules
 /public/build
@@ -5,7 +6,9 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage
 /vendor
+.env
 .env.backup
 .env.production
 .phpactor.json
@@ -20,3 +23,5 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+mysql/
+
