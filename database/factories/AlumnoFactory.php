@@ -18,7 +18,7 @@ class AlumnoFactory extends Factory
     {
         return [
             'nombre' => $this->faker->name(),
-            'dni' => strtoupper($this->faker->numerify('########') . $this->faker->randomLetter()),
+            'dni' => $this->faker->unique()->numerify('########'),
             'email' => $this->faker->unique()->safeEmail(),
         ];
     }

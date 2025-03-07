@@ -49,6 +49,12 @@ class AlumnoController extends Controller
         return view('alumnos.edit', compact('alumno'));
     }
 
+    //    public function edit(Alumno $alumno)
+    //     {
+   //     
+   //     return view('alumnos.edit', ["alumno" => $alumno]);
+   //      }
+
     public function update(Request $request, string $id)
     {
         $alumno = Alumno::findOrFail($id);
@@ -63,18 +69,33 @@ class AlumnoController extends Controller
         // Actualizar el alumno con los datos validados
         $alumno->update($validated);
         
+//      public function update(Request $request, Alumno $alumno)
+//        {
+//         $alumno->update($request->input());
+//           session()->flash("status", "Se ha actualizado el alumno $alumno->nombre");
+//         return redirect(route("alumnos.index"));  
+//        }
+
+
         // Redirigir con mensaje de éxito
         return redirect()->route('alumnos.index')
             ->with('success', 'Alumno actualizado correctamente');
     }
 
-    public function destroy(string $id)
-    {
-        $alumno = Alumno::findOrFail($id);
-        $alumno->delete();
+   // public function destroy(string $id)
+   // {
+   //     $alumno = Alumno::findOrFail($id);
+   //     $alumno->delete();
         
-        // Redirigir con mensaje de éxito
-        return redirect()->route('alumnos.index')
-            ->with('success', 'Alumno eliminado correctamente');
+   //     // Redirigir con mensaje de éxito
+   //     return redirect()->route('alumnos.index')
+   //         ->with('success', 'Alumno eliminado correctamente');
+  //  }
+
+      public function destroy(Alumno $alumno)
+      {
+        $alumno->delete();
+        session()->flash("status", "Se ha borrado $alumno->nombre");
+        return redirect(route("alumnos.index"));
     }
 }

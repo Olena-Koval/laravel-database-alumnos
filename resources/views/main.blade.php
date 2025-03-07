@@ -18,9 +18,9 @@
                 </figure>
                 <div class="card-body">
                     <h2 class="card-title">Alumnos</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <p>LISTA de alumnos esta aqui</p>
                     <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn btn-primary">Entrar</button>
                     </div>
                 </div>
             </div>
